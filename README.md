@@ -52,26 +52,30 @@ COORG_EXECUTOR/
 
 ## 🚀 **Quick Start**
 
-### **Installation (Corrected Installer)**
+### **Installation (Universal - All Linux Distributions)**
 
-> **⚠️ Important:** Use `install_coorg_fixed.sh` - the corrected installer that fixes all setup issues
+> **🌍 NEW:** Universal installer that works on **ALL Linux distributions** automatically!
 
 ```bash
 git clone https://github.com/exploiting-roblox/COORG_EXECUTOR.git
 cd COORG_EXECUTOR/LINUX
-chmod +x install_coorg_fixed.sh
-./install_coorg_fixed.sh
+chmod +x install_universal.sh
+./install_universal.sh
 ```
 
-**What the installer does:**
-- ✅ Detects your Linux distribution automatically
-- ✅ Installs all required dependencies 
-- ✅ Creates proper project structure
-- ✅ Compiles core engine and libraries
-- ✅ Sets up Python virtual environment
-- ✅ Creates desktop launcher entry
-- ✅ Includes example scripts
-- ✅ Verifies complete installation
+**🎯 Automatically detects and configures for:**
+- ✅ **Debian/Ubuntu family:** Ubuntu, Kali, Debian, Pop!_OS, Mint, etc.
+- ✅ **Arch family:** Arch Linux, Manjaro, EndeavourOS, Garuda, etc.
+- ✅ **Red Hat family:** Fedora, CentOS, RHEL, Rocky, AlmaLinux, etc.
+- ✅ **Other distributions:** openSUSE, Alpine, Void, and more
+
+**What the universal installer does:**
+- 🔍 Auto-detects your Linux distribution and package manager
+- 🌙 Finds the optimal Lua version and packages for your system
+- 📦 Installs correct dependencies using your package manager
+- 🔨 Compiles with distribution-specific flags and paths
+- 🐍 Sets up compatible Python virtual environment
+- ✅ Creates universal launcher that works everywhere
 
 ### **Usage**
 ```bash
