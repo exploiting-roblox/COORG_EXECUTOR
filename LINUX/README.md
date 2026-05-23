@@ -7,8 +7,8 @@ This directory contains the **universal Linux implementation** of COORG-EXECUTOR
 **One command works on ALL Linux distributions:**
 
 ```bash
-chmod +x install_universal.sh
-./install_universal.sh
+chmod +x install_universal_fixed.sh
+./install_universal_fixed.sh
 ```
 
 ### **🎯 Automatically Supports:**
@@ -27,32 +27,41 @@ chmod +x install_universal.sh
 ## **📋 Files in This Directory:**
 
 ### **🚀 Main Files:**
-- **`install_universal.sh`** - Universal installer for all Linux distributions
-- **`coorg_core_engine.c`** - Core injection engine with process attachment
-- **`coorg_injected_dll.c`** - UNC API library with 99.9% score functions
-- **`coorg_gui.py`** - Professional GUI with script hub and drawing API
+- **`install_universal_fixed.sh`** - Universal installer for all Linux distributions (26KB)
+- **`compile_only.sh`** - Quick compilation script for existing setups (18KB)
 
 ### **📚 Documentation:**
 - **`COORG_EXECUTOR_README.md`** - Complete technical documentation
-- **`UNIVERSAL_INSTALLER_GUIDE.md`** - Universal installer compatibility guide
+- **`UNIVERSAL_INSTALLER_GUIDE.md`** - Universal installer compatibility guide  
 - **`README.md`** - This file (Linux directory guide)
+
+### **🎯 Source Code Location:**
+> **Note:** Core source files are located in `../COORG-EXECUTOR/src/` after installation:
+- `../COORG-EXECUTOR/src/coorg_core_engine.c` - Core injection engine
+- `../COORG-EXECUTOR/src/coorg_injected_dll.c` - UNC API library  
+- `../COORG-EXECUTOR/coorg_gui.py` - Professional GUI interface
 
 ## **🔧 Technical Architecture:**
 
 ```
-COORG-EXECUTOR Linux/
-├── install_universal.sh      # Universal installer (auto-detects everything)
-├── coorg_core_engine.c       # Process injection engine
-├── coorg_injected_dll.c      # UNC API implementation  
-├── coorg_gui.py              # Professional GUI interface
-└── Documentation files
+COORG-EXECUTOR Structure/
+├── LINUX/                           # Installation and compilation tools
+│   ├── install_universal_fixed.sh   # Universal installer (26KB)
+│   ├── compile_only.sh              # Quick compilation (18KB)  
+│   └── Documentation files          # Guides and technical docs
+└── COORG-EXECUTOR/                  # Working installation (created by installer)
+    ├── src/coorg_core_engine.c      # Process injection engine
+    ├── src/coorg_injected_dll.c     # UNC API implementation
+    ├── coorg_gui.py                 # Professional GUI interface
+    ├── compiled/*.so                # Compiled libraries
+    └── start_coorg.sh               # Universal launcher
 ```
 
 ## **⚡ Quick Start:**
 
 ### **1. Install (Universal):**
 ```bash
-./install_universal.sh
+./install_universal_fixed.sh
 ```
 
 ### **2. Launch:**

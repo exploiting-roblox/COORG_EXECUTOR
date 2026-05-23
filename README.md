@@ -59,8 +59,8 @@
 ```bash
 git clone https://github.com/exploiting-roblox/COORG_EXECUTOR.git
 cd COORG_EXECUTOR/LINUX
-chmod +x install_universal.sh
-./install_universal.sh
+chmod +x install_universal_fixed.sh
+./install_universal_fixed.sh
 ```
 
 **OR use the fixed compilation script (if dependencies already installed):**
@@ -256,7 +256,7 @@ COORG-EXECUTOR is open source and welcomes contributions:
 ```bash
 git clone https://github.com/exploiting-roblox/COORG_EXECUTOR.git
 cd COORG_EXECUTOR/LINUX
-./install_universal.sh
+./install_universal_fixed.sh
 ```
 
 **🌍 Works on YOUR Linux distribution. Guaranteed.**
