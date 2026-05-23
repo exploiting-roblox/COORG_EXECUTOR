@@ -232,6 +232,11 @@ credentials/
 *.backup
 *~
 
+# Sober (Roblox emulator) data - don't track
+.var/
+.cache/sober/
+.config/sober/
+
 # COORG-EXECUTOR specific ignores
 compiled/
 saved_scripts/
