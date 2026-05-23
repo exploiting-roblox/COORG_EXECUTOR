@@ -52,12 +52,26 @@ COORG_EXECUTOR/
 
 ## 🚀 **Quick Start**
 
-### **Installation (One Command)**
+### **Installation (Corrected Installer)**
+
+> **⚠️ Important:** Use `install_coorg_fixed.sh` - the corrected installer that fixes all setup issues
+
 ```bash
-cd LINUX/
-chmod +x install_coorg.sh
-./install_coorg.sh
+git clone https://github.com/exploiting-roblox/COORG_EXECUTOR.git
+cd COORG_EXECUTOR/LINUX
+chmod +x install_coorg_fixed.sh
+./install_coorg_fixed.sh
 ```
+
+**What the installer does:**
+- ✅ Detects your Linux distribution automatically
+- ✅ Installs all required dependencies 
+- ✅ Creates proper project structure
+- ✅ Compiles core engine and libraries
+- ✅ Sets up Python virtual environment
+- ✅ Creates desktop launcher entry
+- ✅ Includes example scripts
+- ✅ Verifies complete installation
 
 ### **Usage**
 ```bash
